@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./normalze.scss";
+@import "@/assets/css/common.scss";
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  font: 14px/1.5 arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif, tahoma;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0px;
+}
